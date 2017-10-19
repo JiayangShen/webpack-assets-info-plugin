@@ -68,6 +68,8 @@ This will generate a `assets.json` file in your root output directory with a inf
 }
 ```
 
+So, you can see that each item in the `asyncChunks` array in this generated json file contains the source file path info(the `src` field) of the emitted code splitting point chunk file(the `file` field). And you can use this to add a script tag in your HTML page file to load the async js file inadvance, and reduce the waterfall time, so that your SPA's first screen page can load and render more quickly!
+
 ## License
 
 MIT © [Jiayang Shen](https://github.com/JiayangShen)
