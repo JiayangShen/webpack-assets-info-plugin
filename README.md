@@ -24,7 +24,7 @@ module.exports = {
 };
 ```
 
-This will generate a `assets.json` file in your root output directory with information of each source file path to their corresponding output file, for example:
+This will generate a `assets.json` file in your root output directory with the information of each source file path to their corresponding output file, for example:
 
 ```json
 {
